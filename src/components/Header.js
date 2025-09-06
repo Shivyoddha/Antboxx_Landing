@@ -21,6 +21,7 @@ const Header = () => {
       <div className="header-container">
         <div className="logo">
           <img src={logo} alt="Antboxx Logo" className="logo-image" />
+          <span className="logo-text">Antboxx</span>
         </div>
         
         {/* Desktop Navigation */}
