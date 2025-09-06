@@ -10,17 +10,12 @@ body {
   color: #333;
 }
 
-.App {
-  padding-top: 100px;
-}
-
 /* Header - Clean Sticky Centering */
 .header {
-  position: fixed;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: sticky;
+  top: 0;
   width: 800px;
+  margin: 40px auto;
   background: white;
   border-radius: 32px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -1953,6 +1948,7 @@ body {
 @media (max-width: 900px) {
   .header {
     width: 90%;
+    margin: 40px auto;
   }
 }
 
@@ -1987,6 +1983,7 @@ body {
 @media (max-width: 768px) {
   .header {
     width: 95%;
+    margin: 40px auto;
     padding: 0.75rem 1rem 0.75rem 1.5rem;
   }
   
@@ -2155,6 +2152,7 @@ body {
 @media (max-width: 480px) {
   .header {
     width: 98%;
+    margin: 40px auto;
   }
   
   .hero h1 {
