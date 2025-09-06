@@ -44,11 +44,11 @@ body {
   border-radius: 6px;
 }
 
-.logo-text {
-  font-size: 1.25rem;
+.header .logo-text {
+  font-size: 1.5rem;
   font-weight: 600;
   color: #1e293b;
-  display: none;
+  display: block;
 }
 
 .nav-links {
@@ -1988,7 +1988,7 @@ body {
     gap: 1rem;
   }
   
-  .logo-text {
+  .header .logo-text {
     display: block;
     font-size: 1.5rem;
     margin-left: 0.5rem;
@@ -2183,7 +2183,7 @@ body {
     margin: 40px auto;
   }
   
-  .logo-text {
+  .header .logo-text {
     display: block;
     font-size: 1.4rem;
     margin-left: 0.5rem;
