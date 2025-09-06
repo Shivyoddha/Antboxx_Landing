@@ -12,8 +12,7 @@ body {
 
 /* Header - Clean Sticky Centering */
 .header {
-  position: sticky;
-  top: 0;
+  position: static;
   width: 800px;
   margin: 40px auto;
   background: white;
