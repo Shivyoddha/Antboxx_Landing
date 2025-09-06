@@ -17,21 +17,21 @@ const Footer = () => {
             AI-powered tools for business growth, seamless scaling, and proven results.
           </p>
           <div className="social-icons">
-            <a href="#" className="social-icon facebook-icon" aria-label="Facebook" onClick={(e) => e.preventDefault()}>
+            <button className="social-icon facebook-icon" aria-label="Facebook">
               <FontAwesomeIcon icon={faFacebook} />
-            </a>
-            <a href="#" className="social-icon instagram-icon" aria-label="Instagram" onClick={(e) => e.preventDefault()}>
+            </button>
+            <button className="social-icon instagram-icon" aria-label="Instagram">
               <FontAwesomeIcon icon={faInstagram} />
-            </a>
-            <a href="#" className="social-icon linkedin-icon" aria-label="LinkedIn" onClick={(e) => e.preventDefault()}>
+            </button>
+            <button className="social-icon linkedin-icon" aria-label="LinkedIn">
               <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-            <a href="#" className="social-icon twitter-icon" aria-label="Twitter" onClick={(e) => e.preventDefault()}>
+            </button>
+            <button className="social-icon twitter-icon" aria-label="Twitter">
               <FontAwesomeIcon icon={faTwitter} />
-            </a>
-            <a href="#" className="social-icon youtube-icon" aria-label="YouTube" onClick={(e) => e.preventDefault()}>
+            </button>
+            <button className="social-icon youtube-icon" aria-label="YouTube">
               <FontAwesomeIcon icon={faYoutube} />
-            </a>
+            </button>
           </div>
         </div>
 
