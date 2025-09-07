@@ -1,3 +1,20 @@
+/* Color Psychology Variables - Trust & Privacy First */
+:root {
+  /* Primary Brand Colors */
+  --primary-blue: #1e40af;     /* Main brand, CTAs, headers */
+  --privacy-green: #10b981;    /* Security, privacy indicators */
+  --professional-charcoal: #374151; /* Body text, secondary elements */
+  
+  /* Supporting Colors */
+  --background-white: #ffffff;  /* Main background */
+  --light-gray: #f8fafc;       /* Section backgrounds */
+  --medium-gray: #64748b;      /* Secondary text */
+  
+  /* Hover States */
+  --blue-hover: #1d4ed8;       /* Interactive states */
+  --green-hover: #059669;      /* Success hover states */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -69,11 +86,11 @@ body {
 }
 
 .nav-links a:hover {
-  color: #8b5cf6;
+  color: var(--primary-blue);
 }
 
 .contact-btn {
-  background: linear-gradient(135deg, #6a5af9 0%, #8364f7 100%);
+  background: var(--primary-blue);
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -170,11 +187,11 @@ body {
 }
 
 .mobile-nav-links a:hover {
-  color: #8b5cf6;
+  color: var(--primary-blue);
 }
 
 .mobile-contact-btn {
-  background: linear-gradient(135deg, #6a5af9 0%, #8364f7 100%) !important;
+  background: var(--primary-blue) !important;
   color: white !important;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -373,7 +390,7 @@ body {
 
 .hero p {
   font-size: 20px;
-  color: #6d28d9;
+  color: var(--primary-blue);
   margin-bottom: 2.5rem;
   max-width: 600px;
   margin-left: auto;
@@ -390,7 +407,7 @@ body {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #6a5af9 0%, #8364f7 100%);
+  background: var(--primary-blue);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -474,7 +491,7 @@ body {
 }
 
 .cta-btn-primary {
-  background: linear-gradient(135deg, #6a5af9 0%, #8364f7 100%);
+  background: var(--primary-blue);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -488,13 +505,13 @@ body {
 
 .cta-btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(106, 90, 249, 0.3);
+  box-shadow: 0 10px 25px rgba(30, 64, 175, 0.3);
 }
 
 .cta-btn-secondary {
   background: white;
-  color: #374151;
-  border: 1px solid #d1d5db;
+  color: var(--professional-charcoal);
+  border: 1px solid var(--primary-blue);
   padding: 1rem 2rem;
   border-radius: 16px;
   font-weight: 600;
@@ -507,7 +524,7 @@ body {
 .cta-btn-secondary:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  border-color: #9ca3af;
+  border-color: var(--blue-hover);
 }
 
 /* Companies Section */
@@ -817,7 +834,7 @@ body {
   gap: 1rem;
   margin-bottom: 2rem;
   padding: 1rem;
-  background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 100%);
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--blue-hover) 100%);
   border-radius: 16px;
   color: white;
 }
@@ -853,7 +870,7 @@ body {
   height: 50px;
   border-radius: 50%;
   overflow: hidden;
-  border: 2px solid #8b5cf6;
+  border: 2px solid var(--primary-blue);
 }
 
 .row-avatar img {
@@ -952,7 +969,7 @@ body {
 }
 
 .account-status {
-  color: #10b981;
+  color: var(--privacy-green);
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -1026,7 +1043,7 @@ body {
   gap: 1rem;
   margin-bottom: 2rem;
   padding: 1rem;
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  background: linear-gradient(135deg, var(--privacy-green) 0%, var(--green-hover) 100%);
   border-radius: 16px;
   color: white;
 }
@@ -1057,7 +1074,7 @@ body {
 
 .bar {
   flex: 1;
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  background: linear-gradient(135deg, var(--privacy-green) 0%, var(--green-hover) 100%);
   border-radius: 8px 8px 0 0;
   min-height: 20px;
   transition: all 0.3s ease;
@@ -1371,12 +1388,12 @@ body {
 }
 
 .pricing-card.popular {
-  border: 2px solid #7c3aed;
+  border: 2px solid var(--primary-blue);
 }
 
 .popular-badge {
-  background: #e0e7ff;
-  color: #3730a3;
+  background: rgba(30, 64, 175, 0.1);
+  color: var(--primary-blue);
   padding: 0.4rem 0.8rem;
   border-radius: 16px;
   font-size: 0.8rem;
@@ -1439,13 +1456,13 @@ body {
 }
 
 .plan-button.primary {
-  background: #7c3aed;
+  background: var(--primary-blue);
   color: white;
   border: none;
 }
 
 .plan-button.primary:hover {
-  background: #6d28d9;
+  background: var(--primary-blue);
   transform: translateY(-1px);
 }
 
@@ -1456,8 +1473,8 @@ body {
 }
 
 .plan-button.secondary:hover {
-  border-color: #7c3aed;
-  color: #7c3aed;
+  border-color: var(--primary-blue);
+  color: var(--primary-blue);
   transform: translateY(-1px);
 }
 
@@ -1497,7 +1514,7 @@ body {
 }
 
 .checkmark {
-  color: #3b82f6;
+  color: var(--privacy-green);
   font-weight: 600;
   margin-right: 0.75rem;
   flex-shrink: 0;
@@ -1712,8 +1729,8 @@ body {
 }
 
 .faq-item.open {
-  border-color: #6a5af9;
-  box-shadow: 0 6px 20px rgba(106, 90, 249, 0.15);
+  border-color: var(--primary-blue);
+  box-shadow: 0 6px 20px rgba(30, 64, 175, 0.15);
   transform: translateY(-1px);
 }
 
@@ -1892,7 +1909,7 @@ body {
 }
 
 .footer-links a:hover {
-  color: #6a5af9;
+  color: var(--primary-blue);
 }
 
 .footer-bottom {
@@ -1928,7 +1945,7 @@ body {
 }
 
 .legal-links a:hover {
-  color: #6a5af9;
+  color: var(--primary-blue);
 }
 
 .made-in-framer {
